@@ -1,0 +1,701 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 0;
+}
+
+.deed {
+    background-color: white;
+    width: 98.7%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    /* margin-right: 10px; */
+}
+
+.deed1 {
+    background-color: white;
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: none;
+}
+
+.menu:hover {
+    background-color: gray;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#youtube {
+    height: 32px;
+    width: 120px;
+    object-fit: fill;
+}
+
+#youtube:hover {
+    cursor: pointer;
+}
+
+.deed2 {
+    background-color: white;
+    flex: 3.5;
+    display: flex;
+}
+
+.deed21 {
+    background-color: white;
+    flex: 1;
+}
+
+.deed22 {
+    background-color: white;
+    flex: 7;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: 50px;
+    height: 50%;
+    /* height: 45px; */
+    /* margin-top: 16.5px; */
+}
+
+.searchbox {
+    background-color: white;
+    flex: 8.3;
+    position: relative;
+    border: solid white;
+    border-radius: 15px;
+    border-right: none;
+}
+
+#search {
+    border: none;
+    background-color: none;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 15px;
+
+}
+
+#zuraas {
+    /* border: 0.3px solid gray; */
+    /* height: 45px; */
+    /* border-left: 0.3px solid gray;
+    height: 100%;
+    width: 0.1%; */
+
+}
+
+.searchicon {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left: 0.3px solid gray;
+}
+
+.searchicon:hover {
+    background-color: rgb(116, 114, 114);
+    border-left: 1px solid gray;
+    border-radius: 50px;
+    /* height: 45px; */
+    height: 100%;
+    cursor: pointer;
+}
+
+.deed23 {
+    /* background-color: #f2f2f2; */
+    flex: 0.5;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+#hooson {
+    width: 60%;
+    /* height: 45px; */
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 50%;
+    border: 0.3px solid gray;
+}
+
+#hooson:hover {
+    background-color: rgb(116, 114, 114);
+    cursor: pointer;
+}
+
+.deed3 {
+    background-color: white;
+    flex: 1.5;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /* padding-right: 10px; */
+    /* margin-right: 10px; */
+}
+
+#deed3icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.deed31,
+.deed32,
+.deed33 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+.deed31:hover {
+    background-color: gray;
+    cursor: pointer;
+}
+
+.deed32:hover {
+    background-color: gray;
+    cursor: pointer;
+}
+
+.deed33:hover {
+    background-color: gray;
+    cursor: pointer;
+
+}
+
+.dood {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    margin-top: 60px;
+}
+
+.doodzuun {
+    background-color: white;
+    flex: 1.75;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    padding-left: 7px;
+    height: 90vh;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+
+
+.doodzuun1 {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 0.3px solid gray;
+}
+
+.doodzuun11,
+.doodzuun12,
+.doodzuun13 {
+    display: flex;
+    align-items: center;
+}
+
+.doodzuun1text {
+    margin-left: 20px;
+}
+
+.doodzuun2 {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 0.3px solid gray;
+    margin-top: 5px;
+}
+
+.doodzuun21,
+.doodzuun22,
+.doodzuun23,
+.doodzuun24,
+.doodzuun25 {
+    display: flex;
+    align-items: center;
+}
+
+.doodzuun11:hover {
+    background-color: gray;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.doodzuun12:hover {
+    background-color: gray;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.doodzuun13:hover {
+    background-color: gray;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.doodzuun21:hover {
+    background-color: gray;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.doodzuun22:hover {
+    background-color: gray;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.doodzuun23:hover {
+    background-color: gray;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.doodzuun24:hover {
+    background-color: gray;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.doodzuun25:hover {
+    background-color: gray;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.doodzuun3 {
+    border-bottom: 0.3px solid gray;
+}
+
+.doodzuun4 {
+    border-bottom: 0.3px solid gray;
+}
+
+.doodzuun5 {
+    margin-top: 5px;
+    border-bottom: 0.3px solid gray;
+}
+
+.doodzuun6 {
+    border-bottom: 0.3px solid gray;
+}
+
+.doodzuun7 {
+    /* text-align: center; */
+    margin: 5px;
+    /* text-wrap: wrap; */
+    font-size: 13px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* border-bottom: 0.3px solid gray; */
+}
+
+.doodzuun71,
+.doodzuun72 {
+    margin-bottom: 15px;
+}
+
+.doodzuun71 {
+    margin-top: 15px;
+}
+
+span:hover {
+    cursor: pointer;
+}
+
+.doodbaruun {
+    background-color: white;
+    flex: 9;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 90vh;
+    overflow: hidden;
+    overflow-y: scroll;
+    margin-left: 0.5rem;
+}
+
+.hayguud {
+    padding-left: 15px;
+    display: flex;
+    /* margin-left: 20px; */
+    justify-content: space-evenly;
+    /* overflow: hidden; */
+    position: relative;
+}
+
+.videobox {
+    /* border: solid black; */
+    width: 30%;
+    /* height: 250px; */
+    height: 38%;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+
+.videobox:hover {
+    cursor: pointer;
+}
+
+.videoboxdeed {
+    width: 100%;
+    flex: 1;
+    /* background-color: gray; */
+    display: flex;
+    align-items: flex-end;
+}
+
+.box {
+    background-color: white;
+    /* width: 100%;
+    height: 100%; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 5px;
+    flex: 1;
+    margin: 0;
+    padding: 0;
+}
+
+video {
+    width: 95%;
+    height: 190px;
+    margin-left: 5px;
+    margin-top: 0px;
+    border-radius: 15px;
+}
+
+#youtubevideo {
+    width: 30px;
+    height: 30px;
+}
+
+
+.videoboxdood {
+    display: flex;
+    flex: 0.5;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+}
+
+.hayg {
+    flex: 1;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+}
+
+.tailbar {
+    flex: 8;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.tailbar:hover {
+    cursor: pointer;
+}
+
+.text {
+    width: 100%;
+    height: 100%;
+    font-size: 8.5px;
+    margin-bottom: 0;
+    margin: 0;
+    padding: 0;
+
+}
+
+.text1 {
+    width: 100%;
+    height: 10vh;
+    font-size: 10px;
+    margin-bottom: 0;
+    margin: 0;
+    padding: 0;
+    margin-left: 15px;
+
+}
+
+.ptext {
+    border: 0.3px none gray;
+    background-color: #f2f2f2;
+    height: 30px;
+    width: 80px;
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    margin-right: 3px;
+    align-items: center;
+}
+
+.ptext:hover {
+    cursor: pointer;
+    background-color: gray;
+}
+
+
+.image {
+    width: 100%;
+}
+
+.shorts {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin-top: 40px;
+    height: 100%;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.shortvideosundsen {
+    margin-top: 15px;
+    display: flex;
+    /* justify-content: space-between; */
+    height: 100%;
+    width: 100%;
+    /* flex-wrap: wrap; */
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.shortvideos {
+    height: 85%;
+    width: 24%;
+    background-color: white;
+    /* border: solid gray; */
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.shorttext {
+    display: flex;
+    margin-left: 25px;
+    align-items: center;
+}
+
+.shortsp {
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+.boginovideo {
+    object-fit: fill;
+    height: 95%;
+    width: 95%;
+}
+
+.shortvideodescription {
+    font-size: 6px;
+}
+
+
+@media screen and (max-width: 425px) {
+
+    .doodzuun, .hayguud {
+        display: none;
+    }
+
+    .deed2, .hayguud, .shorts, {
+        display: none;
+    }
+
+    .menu, .deed2 {
+        display: none;
+    }
+
+    .box {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        /* justify-content: center; */
+    }
+
+    .image {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* align-items: center; */
+    }
+
+    .videobox {
+        width: 100vh;
+        height: 50%;
+        /* object-fit: contain; */
+        /* margin-left: 10%; */
+        display: flex;
+        /* justify-content: center; */
+        align-items: flex-start;
+        margin: 0;
+        padding: 0;
+    }
+
+    .videoboxdood {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        width: 350px;
+        /* height: 50px; */
+   }
+
+    .videoboxdeed {
+        display: flex;
+        /* justify-content: center; */
+        align-items: center;
+        width: 400px;
+        height: 50%;
+        /* object-fit: contain; */
+        margin: 0;
+        border-radius: 15%;
+    }
+
+    .image {
+        display: flex;
+        width: 380px;
+        height: 175px;
+        object-fit: contain;
+        border-radius: 15%;
+    }
+
+    .hayg {
+        flex: 1.5;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .tailbar {
+        flex: 3;
+    }
+}
+
+@media screen and (min-width: 581px) 
+and (max-width: 769px) {
+    .doodzuun {
+        display: none;
+    }
+
+    .menu, .deed2 {
+        display: none;
+    }
+    
+    .box {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .videobox {
+        /* border: solid black; */
+    width: 28%;
+    /* height: 250px; */
+    height: 38%;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-items: center;
+    }
+
+    .hayguud {
+        display: none;
+     }
+
+}
+
+@media screen and (min-width: 425px) 
+and (max-width: 590px) {
+    .doodzuun {
+        display: none;
+    }
+
+    .menu, .deed2 {
+        display: none;
+    }
+    
+    .box {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .videobox {
+        /* border: solid black; */
+    width: 40%;
+    /* height: 250px; */
+    height: 38%;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-items: center;
+    }
+
+    .hayguud {
+        display: none;
+     }
+
+}
+
+@media screen and (min-width: 769px) 
+and (max-width: 1108px) {
+    .videobox {
+        /* border: solid black; */
+    width: 40%;
+    /* height: 250px; */
+    height: 38%;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-items: center;
+    }
+
+    .doodzuun1text {
+        font-size: 10px;
+    }
+
+}
