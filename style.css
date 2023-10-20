@@ -34,6 +34,7 @@ body {
     align-items: center;
     border-radius: 50%;
     border: none;
+    transition: all 0.3s ease-in;
 }
 
 .menu:hover {
@@ -109,6 +110,7 @@ body {
     align-items: center;
     justify-content: center;
     border-left: 0.3px solid gray;
+    transition: all 0.3s ease-in;
 }
 
 .searchicon:hover {
@@ -137,6 +139,7 @@ body {
     align-items: center;
     border-radius: 50%;
     border: 0.3px solid gray;
+    transition: all 0.3s ease-in;
 }
 
 #hooson:hover {
@@ -170,6 +173,7 @@ body {
     width: 45px;
     height: 45px;
     border-radius: 50%;
+    transition: all 0.3s ease-in;
 }
 
 .deed31:hover {
@@ -243,6 +247,7 @@ body {
 .doodzuun25 {
     display: flex;
     align-items: center;
+    transition: all 0.3s ease-in;
 }
 
 .doodzuun11:hover {
@@ -471,6 +476,7 @@ video {
     justify-content: center;
     margin-right: 3px;
     align-items: center;
+    transition: all 0.3s ease-in;
 }
 
 .ptext:hover {
